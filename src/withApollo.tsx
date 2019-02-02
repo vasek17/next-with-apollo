@@ -1,6 +1,6 @@
 import ApolloClient from 'apollo-client';
+import Head from 'next-server/head';
 import { AppProps, default as NextApp, DefaultAppIProps } from 'next/app';
-import Head from 'next/head';
 import PropTypes from 'prop-types';
 import React from 'react';
 import { getDataFromTree } from 'react-apollo';
